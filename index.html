@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+	<h1>Calcul du loyer au prorata</h1>
+
+	<input type="text" name="salaireA" id="salaireA" placeholder="Salaire n°1">
+	<input type="text" name="salaireB" id="salaireB" placeholder="Salaire n°2">
+	<input type="text" name="loyer" id="loyer" placeholder="Prix de votre loyer">
+	<button id="submit" onclick="calculer()"> Calculer </button>
+
+	<div class="resultats">
+		<h2>Résultats des opérations :</h2>
+		<h3>Pour le loyer la personne n°1 doit payer : </h3><h3 id="item1"></h3>
+		<h3>La personne n°2 doit payer le reste soit : </h3><h3 id="item2"></h3>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
